@@ -69,8 +69,8 @@ O site busca oferecer conteúdos gratuitos, vídeos, cursos e dicas para quem de
 
 ## 👨‍💻 Desenvolvedores
 
-- Matheus [Seu sobrenome ou RA]
-- [Nome do parceiro, se houver]
+- Matheus Senna RA: 2760482512053
+- Gabriel
 
 ---
 

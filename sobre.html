@@ -1,1 +1,127 @@
-<!-- sobre.html - Mundo DIY -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre - Mundo DIY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome CSS para ícones sem JS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-papb3TrqlH/7YTp9X0j1fVpk4+EoRQqjZ3+6gGZ/yCtCqCmFHhN1qfczI8y4X1eZkT3GfjA3tRU0qxYO2a8aUw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Estilo CSS -->
+  <link rel="stylesheet" href="./css/estilo.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+  <header class="bg-gray-900 text-white fixed w-full z-10 shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Logotipo -->
+      <div class="text-2xl font-bold cursor-pointer">
+        <a href="index.html" class="block">Mundo DIY</a>
+      </div>
+
+      <!-- Menu de navegação -->
+      <nav class="space-x-6 hidden md:block">
+        <a href="sobre.html" class="hover:text-yellow-400">Sobre</a>
+        <a href="#areas" class="hover:text-yellow-400">Áreas DIY</a>
+        <a href="#videos" class="hover:text-yellow-400">Vídeos</a>
+        <a href="#galeria" class="hover:text-yellow-400">Galeria</a>
+        <a href="contato.html" class="hover:text-yellow-400">Contato</a>
+      </nav>
+
+      <!-- Redes sociais -->
+      <div class="space-x-4 flex text-xl">
+        <a href="#" class="hover:text-yellow-400" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="hover:text-yellow-400" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="#" class="hover:text-yellow-400" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="pt-24 px-6 max-w-5xl mx-auto">
+    <h1 class="text-4xl font-bold mb-6 text-center">Sobre o Mundo DIY</h1>
+
+    <p class="text-lg leading-relaxed mb-6">
+      O <strong>Mundo DIY</strong> nasceu da ideia de tornar acessível o universo maker e "faça você mesmo" para todos
+      que desejam criar, aprender e empreender. Com a popularização de tecnologias como impressão 3D, corte a laser e
+      CNC, acreditamos que qualquer pessoa pode transformar ideias em projetos reais.
+    </p>
+
+    <p class="text-lg leading-relaxed mb-6">
+      Este site foi desenvolvido como parte de um projeto técnico com o objetivo de divulgar informações, oferecer
+      tutoriais, inspirar novos criadores e fortalecer a comunidade DIY no Brasil. Todo o conteúdo é gratuito e voltado
+      para iniciantes e entusiastas.
+    </p>
+
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Missão</h2>
+    <p class="text-lg leading-relaxed mb-6">
+      Democratizar o acesso ao conhecimento prático sobre tecnologias de fabricação digital e incentivar o
+      empreendedorismo criativo.
+    </p>
+
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Visão</h2>
+    <p class="text-lg leading-relaxed mb-6">
+      Ser referência online em conteúdo educacional sobre DIY e fabricação digital no Brasil.
+    </p>
+
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Valores</h2>
+    <ul class="list-disc list-inside text-lg mb-12">
+      <li>Compartilhamento de conhecimento</li>
+      <li>Educação acessível</li>
+      <li>Inovação colaborativa</li>
+      <li>Empreendedorismo criativo</li>
+      <li>Autonomia na prática</li>
+    </ul>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-white py-8 mt-12">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold text-lg mb-2">Links úteis</h4>
+        <ul>
+          <li><a href="index.html" class="hover:underline">Início</a></li>
+          <li><a href="index.html#videos" class="hover:underline">Tutoriais</a></li>
+          <li><a href="contato.html" class="hover:underline">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Siga-nos</h4>
+        <div class="flex space-x-4 mt-2">
+          <span>Instagram</span>
+          <span>YouTube</span>
+          <span>Facebook</span>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Créditos</h4>
+        <p>&copy; 2025 Mundo DIY. Desenvolvido por Matheus e Gabriel.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

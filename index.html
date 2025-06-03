@@ -1,1 +1,149 @@
-<!-- index.html - Mundo DIY -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mundo DIY</title>
+  <!-- Fonte moderna do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Ícones (Heroicons via CDN) -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="./css/estilo.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Cabeçalho com logotipo, menu e redes sociais -->
+  <header class="bg-gray-900 text-white fixed w-full z-10 shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <!-- Logotipo -->
+      <div class="text-2xl font-bold">Mundo DIY</div>
+      <!-- Menu de navegação -->
+      <nav class="space-x-6 hidden md:block">
+        <a href="sobre.html" class="hover:text-yellow-400">Sobre</a>
+        <a href="#areas" class="hover:text-yellow-400">Áreas DIY</a>
+        <a href="#videos" class="hover:text-yellow-400">Vídeos</a>
+        <a href="#galeria" class="hover:text-yellow-400">Galeria</a>
+        <a href="contato.html" class="hover:text-yellow-400">Contato</a>
+      </nav>
+      <!-- Redes sociais -->
+      <div class="space-x-4 flex">
+        <a href="#" class="hover:text-yellow-400" data-feather="instagram"></a>
+        <a href="#" class="hover:text-yellow-400" data-feather="youtube"></a>
+        <a href="#" class="hover:text-yellow-400" data-feather="facebook"></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner principal (Hero Section) -->
+  <section class="pt-24 bg-cover bg-center h-[400px]" style="background-image: url('img/banner.jpg');">
+    <div class="bg-black bg-opacity-50 h-full flex items-center justify-center">
+      <h1 class="text-white text-4xl md:text-6xl font-bold text-center">Crie. Construa. Empreenda com o Mundo DIY</h1>
+    </div>
+  </section>
+
+  <!-- Seção Sobre o Projeto -->
+  <section id="sobre" class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Sobre o Projeto</h2>
+    <p class="text-lg leading-relaxed">
+      O Mundo DIY é uma plataforma criada para apaixonados pelo movimento "faça você mesmo", com foco em impressão 3D, corte a laser, CNC e modelagem digital. Aqui você encontra conteúdos gratuitos, vídeos, cursos e dicas para transformar ideias em projetos reais — seja por hobby ou para gerar renda.
+    </p>
+  </section>
+
+  <!-- Seção Áreas DIY -->
+  <section id="areas" class="py-16 bg-gray-100 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Áreas DIY</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Impressão 3D</h3>
+          <p>Explore modelos, técnicas e materiais para criar objetos tridimensionais personalizados.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Corte a Laser</h3>
+          <p>Aprenda a cortar e gravar com precisão diversos materiais como MDF, acrílico e couro.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Máquinas CNC</h3>
+          <p>Automatize projetos com fresadoras e roteadores CNC para trabalhos em madeira e metal.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-bold mb-2">Modelagem Digital</h3>
+          <p>Desenvolva modelos 3D com softwares como Blender, Fusion 360 e Tinkercad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Vídeos Incorporados -->
+  <section id="videos" class="py-16 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Tutoriais em Vídeo</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Vídeo 1 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6N-F4TZkMXI?si=LBcZKX1NkbOPEL29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <!-- Vídeo 2 -->
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/93RflztQPuw?si=y0K3DqKRJ_5R6d5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de Imagens -->
+  <section id="galeria" class="py-16 bg-gray-100 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Galeria de Projetos</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <!-- Imagens -->
+        <img src="img/projeto1.jpg" alt="Projeto 1" class="rounded shadow-md" />
+        <img src="img/projeto2.jpg" alt="Projeto 2" class="rounded shadow-md" />
+        <img src="img/projeto3.jpg" alt="Projeto 3" class="rounded shadow-md" />
+        <img src="img/projeto4.jpg" alt="Projeto 4" class="rounded shadow-md" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-white py-8 mt-12">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-bold text-lg mb-2">Links úteis</h4>
+        <ul>
+          <li><a href="#" class="hover:underline">Início</a></li>
+          <li><a href="#" class="hover:underline">Cursos</a></li>
+          <li><a href="#" class="hover:underline">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Siga-nos</h4>
+        <div class="flex space-x-4 mt-2">
+          <a href="#" data-feather="instagram" class="hover:text-yellow-400"></a>
+          <a href="#" data-feather="youtube" class="hover:text-yellow-400"></a>
+          <a href="#" data-feather="facebook" class="hover:text-yellow-400"></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-bold text-lg mb-2">Créditos</h4>
+        <p>&copy; 2025 Mundo DIY. Desenvolvido por Matheus e Gabriel.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Ativar os ícones Feather -->
+  <script>
+    feather.replace()
+  </script>
+
+</body>
+</html>
